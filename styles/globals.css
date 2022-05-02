@@ -244,7 +244,7 @@ span.text-red {
   display: flex;
   max-width: 90%;
   height: fit-content;
-  background-color: red;
+  /* background-color: red; */
   gap: 30px;
 }
 .buttons .add-to-cart {
