@@ -96,4 +96,29 @@
     margin-left: 0px;
   }
 
+  .bannerDesc .left h3 {
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 25px;
+  }
+  .bannerDesc .left p {
+    margin: 15px;
+  }
+  
+  .bannerDesc .right {
+    line-height: 1.4;
+  }
+  .bannerDesc .right h3 {
+    font-weight: 800;
+    font-size: 45px;
+  }
+  .bannerDesc .right p {
+    font-size: 16px;
+  }
+  .bannerDesc .right .company-desc {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+
 }
