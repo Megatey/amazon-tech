@@ -242,6 +242,8 @@ span.text-red {
 }
 .product-detail-desc .buttons {
   display: flex;
+  max-width: 100%;
+  background-color: red;
   gap: 30px;
 }
 .buttons .add-to-cart {
