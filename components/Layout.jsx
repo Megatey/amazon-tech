@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Testimonies from './Testimonies';
 
 const Layout = ({ children }) => {
   return (
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
       <main className="main-container">
         {children}
       </main>
+      <Testimonies />
       <footer>
         <Footer />
       </footer>
