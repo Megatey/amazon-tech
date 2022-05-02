@@ -1,17 +1,56 @@
 .footerBannerContainer {
-  padding: 100px 40px;
+  // padding: 100px 40px;
   background-color: #1f2dc2;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 500px;
+  height: fit-content;
+  width: 100%;
   line-height: 1;
   color: white;
-  width: 100%;
   margin-top: 120px;
 }
 .bannerDesc {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+}
+.imageDiv{
+  width: 100%;
+  height: 100%;
+  // background-color: green;
+  position: relative;
+  margin-left: -70px;
+}
+.footerBannerImage {
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  
+}
+.left{
+  height: 100%;
+  width: 100%;
+  // background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+.right{
+  height: 100%;
+  width: 100%;
+  // background-color: rgb(199, 87, 87);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
 }
 .bannerDesc button {
   border-radius: 15px;
@@ -47,45 +86,14 @@
   font-size: 14px;
   font-weight: 300;
 }
-.footerBannerImage {
-  position: absolute;
-  /* top: -35%;
-    left: 8%; */
-  top: -25%;
-  left: 25%;
-}
 
 @media screen and (max-width: 800px) {
-  .footerBannerImage {
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%;
+
+  .bannerDesc {
+    flex-direction: column;
+  }
+  .imageDiv{
+    margin-left: 0px;
   }
 
-  .footerBannerContainer {
-    height: 560px;
-    margin-top: 80px;
-  }
-  .bannerDesc .left h3 {
-    font-weight: 900;
-    font-size: 50px;
-    margin-left: 5px;
-  }
-  .bannerDesc .left p {
-    margin: 18px;
-  }
-  .bannerDesc .right h3 {
-    font-size: 45px;
-  }
-  .bannerDesc .right p {
-    font-size: 18px;
-  }
-  .bannerDesc .right .company-desc {
-    font-size: 14px;
-  }
-  .bannerDesc {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
 }
