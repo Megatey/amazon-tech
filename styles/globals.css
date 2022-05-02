@@ -356,6 +356,24 @@ span.text-red {
   font-weight: 300;
 }
 @media screen and (max-width: 800px) {
+  
+.products-heading {
+  /* position: relative;
+      top: 500px;
+   */
+  text-align: center;
+  margin: 40px 0px;
+  color: #292857;
+}
+.products-heading h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.products-heading p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
   .bannerDesc .right .company-desc {
     font-size: 14px;
   }
