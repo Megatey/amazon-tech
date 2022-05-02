@@ -356,6 +356,20 @@ span.text-red {
   font-weight: 300;
 }
 @media screen and (max-width: 800px) {
+
+  .product-detail-image {
+    border-radius: 15px;
+    background-color: #ebebeb;
+    width: 300px !important;
+    height: 300px !important;
+    height: 92% !important;
+    width: 92% !important;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .product-detail-image:hover {
+    background-color: #1f2dc2;
+  }
   
 .products-heading {
   /* position: relative;
