@@ -147,8 +147,9 @@
 
 @media screen and (max-width: 800px) {
   .cartContainer {
-    width: 415px;
+    width:100%;
     padding: 4px;
+    // background-color: red;
   }
   .cartHeading {
     margin-top: 35px;
