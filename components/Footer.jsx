@@ -1,17 +1,33 @@
-import React from 'react';
-import { AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai';
-import styles from './Footer.module.scss';
+import React from "react";
+import {
+  AiFillInstagram,
+  AiOutlineTwitter,
+  AiFillGithub,
+} from "react-icons/ai";
+import styles from "./Footer.module.scss";
 
 const Footer = () => {
   return (
     <div className={styles.footerContainer}>
-      <p>2022 DevRollins Headphones All rights reserverd</p>
+      <p>2022 DevRollins Gadgets All rights reserverd</p>
       <p className={styles.icons}>
-        <AiFillInstagram />
-        <AiOutlineTwitter />
+        <a
+          href="https://twitter.com/CRollinsDev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiOutlineTwitter />
+        </a>
+        <a
+          href="https://github.com/CollinsRollinsDev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AiFillGithub />
+        </a>
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

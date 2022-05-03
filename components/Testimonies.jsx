@@ -1,4 +1,4 @@
-import React, {useRef, useEffect, useState} from 'react'
+import React, {useRef, useLayoutEffect, useState} from 'react'
 import styles from './Testimonies.module.scss';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 const Testimonies = () => {
 
-        useEffect(() => {
+    useLayoutEffect(() => {
           AOS.init({ duration: 800 });
         }, []);
       

@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className={styles.navbar_container}>
       <p className={styles.logo}>
-        <Link href="/">DevRollins Headphones</Link>
+        <Link href="/">DevRollins Gadgets</Link>
       </p>
 
       <button type="button" className={styles.cartIcon} onClick={() => setShowCart(true)}>
