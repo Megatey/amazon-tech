@@ -3,8 +3,9 @@ import React from "react";
 import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
 
-const Home = ({ products, bannerData }) => (
-  <div>
+const Home = ({ products, bannerData }) => {
+  console.log(bannerData, "as data")
+  return <div>
     <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
     <div className="products-heading">
       <h2>Best Seller Products.....with crypto payments</h2>
@@ -17,9 +18,9 @@ const Home = ({ products, bannerData }) => (
       ))}
     </div>
 
-    <FooterBanner footerBanner={bannerData && bannerData[0]} />
+    <FooterBanner footerBanner={bannerData && bannerData[1]} />
   </div>
-);
+};
 
 export const getServerSideProps = async () => {
   const query = '*[_type == "product"]';
