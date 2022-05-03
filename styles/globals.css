@@ -1,6 +1,7 @@
 html,
 body,
 * {
+ 
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -8,14 +9,16 @@ body,
   box-sizing: border-box;
 }
 ::-webkit-scrollbar {
-  width: 0px;
+  /* width: 0px; */
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-
+/* .homearea{
+  overflow-y: scroll !important;
+} */
 .main-container {
   max-width: 1400px;
   margin: auto;

@@ -4,8 +4,7 @@ import { client } from "../lib/client";
 import { Product, FooterBanner, HeroBanner } from "../components";
 
 const Home = ({ products, bannerData }) => {
-  console.log(bannerData, "as data")
-  return <div>
+  return <div className="homearea">
     <HeroBanner heroBanner={bannerData.length && bannerData[0]} />
     <div className="products-heading">
       <h2>Best Seller Products.....with crypto payments</h2>

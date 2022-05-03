@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  AiFillInstagram,
+  AiFillFacebook,
   AiOutlineTwitter,
   AiFillGithub,
 } from "react-icons/ai";
@@ -25,6 +25,7 @@ const Footer = () => {
         >
           <AiFillGithub />
         </a>
+        {/* <AiFillFacebook /> */}
       </p>
     </div>
   );
