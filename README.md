@@ -1,5 +1,5 @@
 Modern Full Stack ECommerce Application with Stripe & Sanity
-![eCommerce](https://res.cloudinary.com/crdev/image/upload/v1652075464/github_repos/file2_vuvxlv.png)
+![eCommerce](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075464/github_repos/file2_vuvxlv.png)
 
 ### Stack Used
 * Next.Js
@@ -13,8 +13,8 @@ Modern Full Stack ECommerce Application with Stripe & Sanity
 * Checkout Page
 
 
-![image](https://res.cloudinary.com/crdev/image/upload/v1652075465/github_repos/file3_msw88f.png)
-![image](https://res.cloudinary.com/crdev/image/upload/v1652075465/github_repos/file4_ub6iko.png)
-![image](https://res.cloudinary.com/crdev/image/upload/v1652075464/github_repos/file5_yalpzn.png)
-![image](https://res.cloudinary.com/crdev/image/upload/v1652075463/github_repos/file1_gqmulu.png)
-![image](https://res.cloudinary.com/crdev/image/upload/v1652075464/github_repos/file6_xgye0o.png)
+![image](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075465/github_repos/file3_msw88f.png)
+![image](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075465/github_repos/file4_ub6iko.png)
+![image](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075464/github_repos/file5_yalpzn.png)
+![image](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075463/github_repos/file1_gqmulu.png)
+![image](https://res.cloudinary.com/crdev/image/upload/q_100/v1652075464/github_repos/file6_xgye0o.png)
